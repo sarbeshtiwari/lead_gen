@@ -1,0 +1,135 @@
+/* Sidebar.css */
+
+/* General styling for the sidebar */
+#sidebar {
+    background-color: #2c3e50; /* Dark background color */
+    color: #ecf0f1; /* Light text color */
+    height: 100vh; /* Full viewport height */
+    width: 250px; /* Fixed width */
+    position: fixed; /* Fixed position on the side */
+    top: 0;
+    left: 0;
+    transition: width 0.3s; /* Smooth transition for width changes */
+    overflow-y: auto; /* Scrollbar for long content */
+}
+
+/* Logo section styling */
+#sidebar .logo_section {
+    padding: 20px;
+    text-align: center;
+    background-color: #34495e; /* Slightly lighter background for logo section */
+}
+
+/* Logo image styling */
+#sidebar .logo_icon {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Sidebar user info section */
+#sidebar .sidebar_user_info {
+    padding: 20px;
+    background-color: #34495e; /* Background color */
+    border-bottom: 1px solid #4a5a6c; /* Border color */
+}
+
+/* User image styling */
+#sidebar .user_img img {
+    border-radius: 50%; /* Circular user image */
+    width: 50px; /* Fixed width */
+    height: 50px; /* Fixed height */
+}
+
+/* User info styling */
+#sidebar .user_info {
+    margin-top: 10px;
+}
+
+#sidebar .user_info h6 {
+    margin: 0;
+    font-size: 16px;
+    color: #ecf0f1;
+}
+
+#sidebar .user_info p {
+    margin: 0;
+    font-size: 14px;
+    color: #95a5a6;
+}
+
+/* Sidebar links styling */
+#sidebar .sidebar_blog_2 {
+    padding: 20px;
+}
+
+#sidebar .sidebar_blog_2 h4 {
+    color: #ecf0f1;
+    margin-bottom: 20px;
+}
+
+/* List styling */
+#sidebar .list-unstyled {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#sidebar .list-unstyled li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #4a5a6c;
+}
+
+#sidebar .list-unstyled li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s, padding-left 0.3s;
+}
+
+#sidebar .list-unstyled li a i {
+    margin-right: 10px;
+}
+
+/* Hover effect for links */
+#sidebar .list-unstyled li a:hover {
+    background-color: #34495e; /* Darken background on hover */
+    padding-left: 20px; /* Add padding to indicate active state */
+}
+
+/* Collapsible menu styling */
+#sidebar .collapse {
+    padding-left: 20px;
+}
+
+#sidebar .collapse.show {
+    display: block;
+}
+
+#sidebar .collapse {
+    display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #sidebar {
+        width: 200px; /* Adjust width for smaller screens */
+    }
+
+    .topbar {
+        width: 100%;
+        left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    #sidebar {
+        width: 0;
+        display: none; /* Hide sidebar on small screens */
+    }
+
+    .topbar {
+        width: 100%;
+        left: 0;
+    }
+}

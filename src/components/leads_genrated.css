@@ -1,0 +1,172 @@
+/* Page Background */
+
+body {
+    background-color: #f4f4f4; /* Light grey background for a clean look */
+    color: #333; /* Ensure text color contrasts well with the background */
+    font-family: Arial, sans-serif; /* Consistent font for better readability */
+}
+
+/* Container Styles */
+.midde_cont {
+    padding: 20px;
+    background-color: #fff; /* White background for main content area to stand out */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 0 auto;
+}
+
+/* Container Fluid */
+.container-fluid {
+    margin: 0 auto;
+}
+
+/* Row and Title Styles */
+.row.column_title {
+    margin-bottom: 20px;
+}
+
+.page_title h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Table Styles */
+.table-responsive-sm {
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table thead {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.table thead th {
+    font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+/* Button Styles */
+.btn {
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Ensure button visibility */
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Hover state color */
+}
+
+/* DataTable Buttons */
+.dt-buttons {
+    margin-bottom: 15px;
+}
+
+.dt-button {
+    border: 1px solid #ddd;
+    background: #f8f9fa;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 6px 12px;
+    margin-right: 5px;
+}
+
+.dt-button:hover {
+    background: #e2e6ea;
+}
+
+/* Pagination Styles */
+.dataTables_paginate {
+    margin-top: 15px;
+    text-align: right;
+}
+
+.paginate_button {
+    border: 1px solid #ddd;
+    background: #f8f9fa;
+    color: #333;
+    padding: 6px 12px;
+    margin: 0 2px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.paginate_button:hover {
+    background: #e2e6ea;
+}
+
+.paginate_button.current {
+    background: #343a40;
+    color: #fff;
+}
+
+.paginate_button.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+/* Form Inputs */
+input[type="text"] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Misc */
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.list-inline-item {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}

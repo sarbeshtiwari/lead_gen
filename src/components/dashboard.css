@@ -1,0 +1,110 @@
+/* Dashboard.css */
+
+/* Container and row styling */
+.midde_cont {
+   
+    
+}
+
+.container-fluid {
+   
+    padding-left: 350px;
+}
+
+/* Title styling */
+.page_title {
+    padding: 20px 0;
+    text-align: left;
+}
+
+.page_title h2 {
+    font-size: 35px;
+    color: #333;
+}
+
+/* Card styling */
+.white_shd {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Margin bottom */
+.margin_bottom_30 {
+    margin-bottom: 30px;
+}
+
+/* Graph heading */
+.graph_head h3 {
+    font-size: 18px;
+    color: #3498db; /* Info color */
+    margin-bottom: 20px;
+}
+
+/* Price table styling */
+.price_table {
+    padding: 20px;
+}
+
+.counter_section {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.counter_section .couter_icon {
+    margin-right: 10px;
+}
+
+.counter_section .couter_icon i {
+    font-size: 24px;
+}
+
+.counter_section .counter_no {
+    flex: 1;
+}
+
+.counter_section .total_no {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.counter_section .head_couter {
+    font-size: 14px;
+    color: #888;
+}
+
+/* Table styling */
+.table-striped {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table-striped thead th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+}
+
+.table-striped th,
+.table-striped td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f9fa; /* Light background color */
+    border-top: 1px solid #dee2e6;
+    color: #6c757d;
+}
